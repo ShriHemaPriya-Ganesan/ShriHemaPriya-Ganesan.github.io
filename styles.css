@@ -98,10 +98,38 @@ body {
     margin-top: 50px;
     font-size: 35px;
     margin-bottom: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
 }
 
+#showcase h1 i {
+    margin:0 5px; 
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    #showcase h1 {
+        font-size: 28px;
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    #showcase h1 i {
+        font-size: 24px;
+        margin-right: 5px; 
+    }
+}
 #showcase p {
     font-size: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    #showcase p {
+        text-align: center; 
+    }
 }
 
 #main {
@@ -185,6 +213,11 @@ body {
 .project p {
     text-align: justify;
 }
+@media screen and (max-width: 768px) {
+    .project p {
+        text-align: left; /* Or text-align: start; */
+    }
+}
 
 #certifications .certification:hover {
     transform: scale(1.05);
@@ -211,6 +244,15 @@ body {
     color: #333;
     text-decoration: none;
     float: right;
+}
+
+@media screen and (max-width: 768px) {
+    #certifications .certification a {
+        float: none; 
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+    }
 }
 
 .social-icons {
