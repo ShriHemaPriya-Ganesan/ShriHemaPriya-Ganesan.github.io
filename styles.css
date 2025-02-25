@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-logo {
-    color: #fff;
+    color: rgb(218, 233, 247);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar-link {
-    color: #fff;
+    color: rgb(218, 233, 247);
     text-decoration: none;
     transition: color 0.3s;
 }
