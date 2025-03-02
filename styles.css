@@ -105,7 +105,8 @@ body {
 }
 
 #showcase h1 i {
-    margin:0 5px; 
+    margin-left: 12px;
+    margin-right: 2px; 
     font-size: 28px;
 }
 
